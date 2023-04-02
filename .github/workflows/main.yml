@@ -7,4 +7,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2.7.0
     - run: |
-        ls
+        cd ${{ github.workspace }}
+        touch hello.txt
+        pwd
