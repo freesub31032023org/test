@@ -10,3 +10,4 @@ jobs:
         cd ${{ github.workspace }}
         touch hello.txt
         pwd
+        ls
